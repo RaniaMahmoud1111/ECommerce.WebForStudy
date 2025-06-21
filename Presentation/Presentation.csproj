@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServicesAbstractions\ServicesAbstractions.csproj" />
+  </ItemGroup>
+	
+	<ItemGroup>
+		<FramWorkReference Include="Microsoft.NetCore.App" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.3.0" />
+	</ItemGroup>
+	
+</Project>
